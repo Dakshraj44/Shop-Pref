@@ -1,12 +1,76 @@
-# React + Vite
+Perfume Store – React + Vite
+📌 Project Description
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a modern, responsive Perfume Store Website built using React and Vite.
+It includes multiple pages (Homepage, Product Page, etc.) and reusable UI components such as Header, Footer, Hero Section, Product Cards, and more.
+The project is designed with clean folder structure, modular components, and optimized asset handling for fast performance.
 
-Currently, two official plugins are available:
+It is ideal as a frontend portfolio project demonstrating skills in React, components architecture, UI/UX layout, and routing (if used).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Features
 
-## Expanding the ESLint configuration
+⚛️ Built with React + Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📱 Fully responsive UI
+
+🧩 Reusable components (Header, Footer, Hero, Products, Categories, Offers, etc.)
+
+🖼️ Organized asset management
+
+🧭 Separate pages (Homepage, Product page, About, Contact)
+
+⚡ Fast development & build with Vite
+
+🎨 Clean and structured styling
+
+📂 Project Structure
+src/
+│── assets/            # Images & icons
+│
+│── components/        # Reusable UI components
+│     ├── About.jsx
+│     ├── Categories.jsx
+│     ├── Contact.jsx
+│     ├── Footer.jsx
+│     ├── Header.jsx
+│     ├── Hero.jsx
+│     ├── Offers.jsx
+│     └── Products.jsx
+│
+│── pages/             # Page-level components
+│     ├── Homepage.jsx
+│     └── Product.jsx
+│
+│── App.jsx            # Main app component
+│── index.css          # Global styles
+│── main.jsx           # Entry point
+│
+public/                # Public static files
+
+🛠️ Installation & Setup
+1️⃣ Install dependencies
+npm install
+
+2️⃣ Start development server
+npm run dev
+
+3️⃣ Build for production
+npm run build
+
+📸 Preview
+
+<img width="1355" height="604" alt="image" src="https://github.com/user-attachments/assets/50f53da6-46b6-4466-959c-a7a304caa5f9" />
+<img width="1349" height="607" alt="image" src="https://github.com/user-attachments/assets/b09e4e17-11ba-4436-a9bf-e68746c67662" />
+<img width="1351" height="768" alt="image" src="https://github.com/user-attachments/assets/88cf0789-087b-4aa3-ab1e-be261a9ecfb3" />
+
+
+
+
+🤝 Contributing
+
+Contributions and suggestions are welcome!
+Feel free to open an issue or submit a pull request.
+
+📄 License
+
+This project is for educational and portfolio purposes.
